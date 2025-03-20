@@ -46,8 +46,8 @@ Make sure all required libraries are installed. Run the following command in Col
 Using Virtual Environment (Local)
 Run the following command to create and activate a virtual environment:
 ```bash
-mkdir project_dashboard
-cd Dicoding-Data-Scientist-Machine-Learning-Engineer
+mkdir -Dicoding-Data-Scientist-Machine-Learning-Engineer
+cd -Dicoding-Data-Scientist-Machine-Learning-Engineer
 
 python -m venv venv
 source venv/bin/activate
