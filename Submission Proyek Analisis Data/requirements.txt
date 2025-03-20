@@ -1,3 +1,4 @@
+HEAD
 pandas
 numpy
 matplotlib
@@ -6,3 +7,4 @@ scipy
 scikit-learn
 streamlit
 plotly
+c1796c3 (Menambahkan matplotlib ke requirements.txt)
