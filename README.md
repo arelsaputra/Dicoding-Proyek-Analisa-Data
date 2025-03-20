@@ -1,69 +1,71 @@
-# 📊 Data Analysis Dashboard
+#Data Analysis Dashboard
 
-Dashboard ini dibuat untuk menganalisis data transaksi dan ulasan pelanggan.
+This dashboard is created to analyze transaction data and customer reviews.
 
-## 📝 Deskripsi Proyek  
-Proyek ini bertujuan untuk menerapkan teknik eksplorasi dan analisis data menggunakan Python serta pustaka seperti Pandas, Matplotlib, dan Seaborn. Dashboard ini membantu dalam visualisasi data untuk mendapatkan insight yang lebih jelas.
+##Project Description
 
-### Tahapan Analisis:  
-1. **Data Understanding** – Memahami struktur dan karakteristik dataset.  
-2. **Data Cleaning** – Menangani data yang hilang atau tidak valid.  
-3. **Exploratory Data Analysis (EDA)** – Melakukan analisis statistik dan visualisasi data.  
-4. **Dashboard Development** – Membuat dashboard interaktif untuk analisis data.  
-5. **Insight & Conclusion** – Menyimpulkan hasil analisis untuk memberikan rekomendasi.  
+This project aims to implement data exploration and analysis techniques using Python and libraries such as Pandas, Matplotlib, and Seaborn. This dashboard helps in data visualization to get clearer insights.
 
-## 🛠️ Teknologi & Tools  
-- Python  
-- Pandas  
-- Matplotlib & Seaborn  
-- Streamlit / Dash untuk Dashboard  
-- Jupyter Notebook / Google Colab  
+### Analysis Stages:
 
-## 📂 Struktur Repository  
+1. **Data Understanding** – Understand the structure and characteristics of the dataset.
+
+2. **Data Cleaning** – Handle missing or invalid data.
+
+3. **Exploratory Data Analysis (EDA)** – Perform statistical analysis and data visualization.
+
+4. **Dashboard Development** – Create an interactive dashboard for data analysis.
+
+5. **Insight & Conclusion** – Summarize the analysis results to provide recommendations.
+
+##Technologies & Tools
+- Python
+- Pandas
+- Matplotlib & Seaborn
+- Streamlit / Dash for Dashboard
+- Jupyter Notebook / Google Colab
+
+##Repository Structure
 ```
-📂 proyek_dashboard  
-│── 📁 dataset/                # Dataset yang digunakan  
-│── 📁 notebooks/              # Notebook analisis data  
-│── 📁 dashboard/              # Kode untuk dashboard analisis  
-│── 📁 images/                 # Hasil visualisasi data  
-│── 📄 README.md               # Deskripsi proyek  
-│── 📄 requirements.txt        # Daftar library yang dibutuhkan  
+Submission Proyek Analisis Data
+│── 📁 dataset/ # Datasets used
+│── 📁 notebooks/ # Data analysis notebooks
+│── 📁 dashboard/ # Code for analysis dashboard
+│── 📄 README.md # Project description
+│── 📄 requirements.txt # List of required libraries
 ```
 
-## 🔧 Setup Environment  
+##Setup Environment
 
-### 1️⃣ Menggunakan Google Colab  
-Pastikan semua library yang dibutuhkan telah diinstal. Jalankan perintah berikut di Colab:  
+###Using Google Colab
+Make sure all required libraries are installed. Run the following command in Colab:
 ```python
 !pip install -r requirements.txt
 ```
 
-### 2️⃣ Menggunakan Virtual Environment (Lokal)  
-Jalankan perintah berikut untuk membuat dan mengaktifkan virtual environment:  
+###Using Virtual Environment (Local)
+Run the following command to create and activate a virtual environment:
 ```bash
-# Buat dan masuk ke direktori proyek
-mkdir proyek_dashboard
-cd proyek_dashboard
+# Create and navigate to the project directory
+mkdir project_dashboard
+cd project_dashboard
 
-# Buat virtual environment
+# Create a virtual environment
 python -m venv venv
-source venv/bin/activate  # (Gunakan venv\Scripts\activate di Windows)
+source venv/bin/activate # (Use venv\Scripts\activate on Windows)
 
-# Install library yang dibutuhkan
+# Install required libraries
 pip install -r requirements.txt
 ```
 
-## 🚀 Menjalankan Dashboard  
-Jalankan perintah berikut di terminal untuk membuka dashboard:  
+##Running the Dashboard
+Run the following command in the terminal to open the dashboard:
 ```bash
 streamlit run dashboard.py
 ```
-Dashboard akan terbuka secara otomatis di browser.
+The dashboard will automatically open in your browser.
 
-## 📌 Penyesuaian dengan Kebutuhanmu  
-- **Google Colab** → Langsung install dependencies dan jalankan kode di notebook.  
-- **VSCode** → Menggunakan virtual environment untuk mengisolasi dependensi.  
-- **Streamlit** → Menjalankan dashboard secara lokal di browser.  
-
-Simpan file ini sebagai **`README.md`** di dalam folder proyekmu. 🚀
-
+##Customize to Your Needs
+- **Google Colab** → Instantly install dependencies and run code in a notebook.
+- **VSCode** → Use virtual environments to isolate dependencies.
+- **Streamlit** → Run the dashboard locally in a browser.
