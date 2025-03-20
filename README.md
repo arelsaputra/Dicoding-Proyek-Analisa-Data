@@ -46,15 +46,12 @@ Make sure all required libraries are installed. Run the following command in Col
 Using Virtual Environment (Local)
 Run the following command to create and activate a virtual environment:
 ```bash
-# Create and navigate to the project directory
 mkdir project_dashboard
 cd project_dashboard
 
-# Create a virtual environment
 python -m venv venv
 source venv/bin/activate # (Use venv\Scripts\activate on Windows)
 
-# Install required libraries
 pip install -r requirements.txt
 ```
 
