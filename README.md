@@ -28,11 +28,11 @@ Technologies & Tools
 Repository Structure
 ```
 Submission Proyek Analisis Data
-│── 📁 dataset/ # Datasets used
-│── 📁 notebooks/ # Data analysis notebooks
-│── 📁 dashboard/ # Code for analysis dashboard
-│── 📄 README.md # Project description
-│── 📄 requirements.txt # List of required libraries
+│── 📁 dataset/ 
+│── 📁 notebooks/ 
+│── 📁 dashboard/ 
+│── 📄 README.md 
+│── 📄 requirements.txt
 ```
 
 Setup Environment
