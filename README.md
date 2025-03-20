@@ -1,12 +1,12 @@
-#Data Analysis Dashboard
+Data Analysis Dashboard
 
 This dashboard is created to analyze transaction data and customer reviews.
 
-##Project Description
+Project Description
 
 This project aims to implement data exploration and analysis techniques using Python and libraries such as Pandas, Matplotlib, and Seaborn. This dashboard helps in data visualization to get clearer insights.
 
-### Analysis Stages:
+Analysis Stages:
 
 1. **Data Understanding** – Understand the structure and characteristics of the dataset.
 
@@ -18,7 +18,7 @@ This project aims to implement data exploration and analysis techniques using Py
 
 5. **Insight & Conclusion** – Summarize the analysis results to provide recommendations.
 
-##Technologies & Tools
+Technologies & Tools
 - Python
 - Pandas
 - Matplotlib & Seaborn
@@ -35,15 +35,15 @@ Submission Proyek Analisis Data
 │── 📄 requirements.txt # List of required libraries
 ```
 
-##Setup Environment
+Setup Environment
 
-###Using Google Colab
+Using Google Colab
 Make sure all required libraries are installed. Run the following command in Colab:
 ```python
 !pip install -r requirements.txt
 ```
 
-###Using Virtual Environment (Local)
+Using Virtual Environment (Local)
 Run the following command to create and activate a virtual environment:
 ```bash
 # Create and navigate to the project directory
@@ -58,14 +58,14 @@ source venv/bin/activate # (Use venv\Scripts\activate on Windows)
 pip install -r requirements.txt
 ```
 
-##Running the Dashboard
+Running the Dashboard
 Run the following command in the terminal to open the dashboard:
 ```bash
 streamlit run dashboard.py
 ```
 The dashboard will automatically open in your browser.
 
-##Customize to Your Needs
+Customize to Your Needs
 - **Google Colab** → Instantly install dependencies and run code in a notebook.
 - **VSCode** → Use virtual environments to isolate dependencies.
 - **Streamlit** → Run the dashboard locally in a browser.
