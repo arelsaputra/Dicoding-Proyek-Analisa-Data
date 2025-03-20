@@ -63,9 +63,3 @@ Run the following command in the terminal to open the dashboard:
 ```bash
 streamlit run dashboard.py
 ```
-The dashboard will automatically open in your browser.
-
-Customize to Your Needs
-- **Google Colab** → Instantly install dependencies and run code in a notebook.
-- **VSCode** → Use virtual environments to isolate dependencies.
-- **Streamlit** → Run the dashboard locally in a browser.
